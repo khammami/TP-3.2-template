@@ -19,28 +19,28 @@ La capture d'écran ci-dessous montre un exemple d'implémentation simple. L'app
 
 Laquelle des affirmations suivantes concernant une `RecyclerView` est fausse ? Choisissez-en un.
 
-* Un `RecyclerView` est un moyen plus économe en ressources pour afficher des listes déroulantes.
-* Il faut fournir une mise en page (layout) pour un seul élément de la liste.
-* Tous les éléments de la liste se ressemblent.
-* on a pas besoin d'un gestionnaire de disposition (layout manager) avec un `RecyclerView` pour gérer la hiérarchie et la disposition des éléments `View`.
+- [ ] Un `RecyclerView` est un moyen plus économe en ressources pour afficher des listes déroulantes.
+- [ ] Il faut fournir une mise en page (layout) pour un seul élément de la liste.
+- [ ] Tous les éléments de la liste se ressemblent.
+- [ ] on a pas besoin d'un gestionnaire de disposition (layout manager) avec un `RecyclerView` pour gérer la hiérarchie et la disposition des éléments `View`.
 
 ### **Question 2**
 
 Lequel des éléments suivants est le composant principal dont vous avez besoin pour fournir à un adaptateur un élément de vue et sa position dans un `RecyclerView`?Choisissez-en un.
 
-* `RecyclerView`
-* `RecyclerView.Adapter`
-* `RecyclerView.ViewHolder`
-* `AppCompatActivity`
+- [ ] `RecyclerView`
+- [ ] `RecyclerView.Adapter`
+- [ ] `RecyclerView.ViewHolder`
+- [ ] `AppCompatActivity`
 
 ### **Question 3**
 
 Quelle interface doit-on implémenter pour écouter et répondre aux clics des utilisateurs dans une `RecyclerView`? Choisissez-en un.
 
-* `View.onClickListener`
-* `RecyclerView.Adapter`
-* `RecyclerView.ViewHolder`
-* `View.OnKeyListener`
+- [ ] `View.onClickListener`
+- [ ] `RecyclerView.Adapter`
+- [ ] `RecyclerView.ViewHolder`
+- [ ] `View.OnKeyListener`
 
 ## Soumettez votre application pour la notation
 
