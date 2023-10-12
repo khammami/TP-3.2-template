@@ -5,7 +5,7 @@
 Créer une application qui utilise un `RecyclerView` pour afficher une liste de recettes. Chaque élément de la liste doit indiquer le nom de la recette avec une courte description. Lorsque l'utilisateur appuie sur une recette (un élément de la liste), démarrer une activité (`Activity`) qui affiche le texte complet de la recette.
 
 * Utiliser des éléments et un style `TextView` distincts pour le nom et la description de la recette.
-* Il est ossible d'utiliser un texte d'espace réservé (placeholder) pour les recettes complètes.
+* Il est possible d'utiliser un texte d'espace réservé (placeholder) pour les recettes complètes.
 * En option, ajouter une image du plat fini à chaque recette.
 * Cliquer sur le bouton Haut ramène l'utilisateur à la liste des recettes.
 
