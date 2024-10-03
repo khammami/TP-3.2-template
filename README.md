@@ -1,4 +1,7 @@
-# Travail à faire
+# Travail à faire (Compte Rendu)
+
+> [!WARNING]  
+> Veuillez suivre les instructions détaillées du codelab **[Comment soumettre votre compte rendu](https://codelabs-enetcom.khammami.tn/codelabs/soumettre-compte-rendu/)** pour soumettre votre compte rendu.
 
 ## Créer et exécuter une application
 
@@ -17,37 +20,45 @@ La capture d'écran ci-dessous montre un exemple d'implémentation simple. L'app
 
 ### **Question 1**
 
-Laquelle des affirmations suivantes concernant une `RecyclerView` est fausse ? Choisissez-en un.
+**Q1.** Laquelle des affirmations suivantes concernant une `RecyclerView` est fausse ?
 
-- [ ] Un `RecyclerView` est un moyen plus économe en ressources pour afficher des listes déroulantes.
-- [ ] Il faut fournir une mise en page (layout) pour un seul élément de la liste.
-- [ ] Tous les éléments de la liste se ressemblent.
-- [ ] on a pas besoin d'un gestionnaire de disposition (layout manager) avec un `RecyclerView` pour gérer la hiérarchie et la disposition des éléments `View`.
+📋 **A1.** Choisissez-en un:
+
+* [ ] **(a)** Un `RecyclerView` est un moyen plus économe en ressources pour afficher des listes déroulantes.
+* [ ] **(b)** Il faut fournir une mise en page (layout) pour un seul élément de la liste.
+* [ ] **(c)** Tous les éléments de la liste se ressemblent.
+* [ ] **(d)** on a pas besoin d'un gestionnaire de disposition (layout manager) avec un `RecyclerView` pour gérer la hiérarchie et la disposition des éléments `View`.
 
 ### **Question 2**
 
-Lequel des éléments suivants est le composant principal dont vous avez besoin pour fournir à un adaptateur un élément de vue et sa position dans un `RecyclerView`?Choisissez-en un.
+**Q2.** Lequel des éléments suivants est le composant principal dont vous avez besoin pour fournir à un adaptateur un élément de vue et sa position dans un `RecyclerView`?
 
-- [ ] `RecyclerView`
-- [ ] `RecyclerView.Adapter`
-- [ ] `RecyclerView.ViewHolder`
-- [ ] `AppCompatActivity`
+📋 **A2.** Choisissez-en un:
+
+* [ ] **(a)** `RecyclerView`
+* [ ] **(b)** `RecyclerView.Adapter`
+* [ ] **(c)** `RecyclerView.ViewHolder`
+* [ ] **(d)** `AppCompatActivity`
 
 ### **Question 3**
 
-Quelle interface doit-on implémenter pour écouter et répondre aux clics des utilisateurs dans une `RecyclerView`? Choisissez-en un.
+**Q3.** Quelle interface doit-on implémenter pour écouter et répondre aux clics des utilisateurs dans une `RecyclerView`?
 
-- [ ] `View.onClickListener`
-- [ ] `RecyclerView.Adapter`
-- [ ] `RecyclerView.ViewHolder`
-- [ ] `View.OnKeyListener`
+📋 **A3.** Choisissez-en un:
 
-## Soumettez votre application pour la notation
+* [ ] **(a)** `View.onClickListener`
+* [ ] **(b)** `RecyclerView.Adapter`
+* [ ] **(c)** `RecyclerView.ViewHolder`
+* [ ] **(d)** `View.OnKeyListener`
 
-Vérifier que l'application dispose des fonctionnalités suivantes :
+## Notes
 
-* Implémente un `RecyclerView` qui affiche une liste déroulante de titres de recettes et de courtes descriptions.
-* Le code étend ou implémente `RecyclerView`, `RecyclerView.Adapter`, `RecyclerView.ViewHolder` et `View.OnClickListener`.
-* Cliquer sur un élément de la liste démarre une activité (`Activity`) qui affiche la recette complète.
-* Le fichier `AndroidManifest.xml` définit une relation parent de sorte que cliquer sur le bouton Haut dans une vue de recette revient à la liste des recettes.
-* `ViewHolder` contient une mise en page avec deux éléments `TextView`; par exemple, un `LinearLayout` avec deux éléments `TextView`.
+> [!NOTE]  
+>
+> Vérifier que l'application dispose des fonctionnalités suivantes :
+>
+> * Implémente un `RecyclerView` qui affiche une liste déroulante de titres de recettes et de courtes descriptions.
+> * Le code étend ou implémente `RecyclerView`, `RecyclerView.Adapter`, `RecyclerView.ViewHolder` et `View.OnClickListener`.
+> * Cliquer sur un élément de la liste démarre une activité (`Activity`) qui affiche la recette complète.
+> * Le fichier `AndroidManifest.xml` définit une relation parent de sorte que cliquer sur le bouton Haut dans une vue de recette revient à la liste des recettes.
+> * `ViewHolder` contient une mise en page avec deux éléments `TextView`; par exemple, un `LinearLayout` avec deux éléments `TextView`.
